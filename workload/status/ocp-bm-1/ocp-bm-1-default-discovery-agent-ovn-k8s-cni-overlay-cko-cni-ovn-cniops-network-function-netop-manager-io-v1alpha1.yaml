@@ -1,0 +1,16 @@
+{
+  "apiVersion": "notification-ctrlr.netop-types.io/v1alpha1",
+  "kind": "Notification",
+  "metadata": {
+    "name": "ocp-bm-1-default-discovery-agent-ovn-k8s-cni-overlay-cko-cni-ovn-cniops-network-function-netop-manager-io-v1alpha1"
+  },
+  "spec": {
+    "clusterName": "ocp-bm-1",
+    "objRef": {
+      "apiVersion": "network-function.netop-manager.io/v1alpha1",
+      "kind": "CniOps",
+      "name": "discovery-agent-ovn-k8s-cni-overlay-cko-cni-ovn"
+    },
+    "serializedObj": "{\"kind\":\"CniOps\",\"apiVersion\":\"network-function.netop-manager.io/v1alpha1\",\"metadata\":{\"name\":\"discovery-agent-ovn-k8s-cni-overlay-cko-cni-ovn\",\"creationTimestamp\":null},\"spec\":{\"config\":{\"workload\":{\"type\":\"cko-cni-ovn\",\"version\":\"ocp-v4.0-art-dev\"}},\"arrayOptions\":{\"flavor\":[\"openshift-sdn\"],\"pod_status_namespace\":[\"openshift-ovn-kubernetes\"]}},\"status\":{\"cniType\":\"cko-cni-ovn\",\"cniVersion\":\"ocp-v4.0-art-dev\",\"cniStatus\":{\"openshift-ovn-kubernetes/ovnkube-master-j7dgd\":\"Running\",\"openshift-ovn-kubernetes/ovnkube-master-vzkcs\":\"Running\",\"openshift-ovn-kubernetes/ovnkube-master-xlhtk\":\"Running\",\"openshift-ovn-kubernetes/ovnkube-node-4plw4\":\"Running\",\"openshift-ovn-kubernetes/ovnkube-node-6vsrp\":\"Running\",\"openshift-ovn-kubernetes/ovnkube-node-f5bzr\":\"Running\",\"openshift-ovn-kubernetes/ovnkube-node-sfbdr\":\"Running\",\"openshift-ovn-kubernetes/ovnkube-node-zrb84\":\"Running\"},\"state\":\"Running\",\"managedState\":\"Unmanaged\",\"upgradeStatus\":{\"cniUpgradeState\":\"None\"},\"observedGeneration\":1}}"
+  }
+}

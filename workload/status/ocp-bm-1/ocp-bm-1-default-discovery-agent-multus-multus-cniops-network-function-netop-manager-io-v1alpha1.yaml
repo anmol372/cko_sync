@@ -1,0 +1,16 @@
+{
+  "apiVersion": "notification-ctrlr.netop-types.io/v1alpha1",
+  "kind": "Notification",
+  "metadata": {
+    "name": "ocp-bm-1-default-discovery-agent-multus-multus-cniops-network-function-netop-manager-io-v1alpha1"
+  },
+  "spec": {
+    "clusterName": "ocp-bm-1",
+    "objRef": {
+      "apiVersion": "network-function.netop-manager.io/v1alpha1",
+      "kind": "CniOps",
+      "name": "discovery-agent-multus-multus"
+    },
+    "serializedObj": "{\"kind\":\"CniOps\",\"apiVersion\":\"network-function.netop-manager.io/v1alpha1\",\"metadata\":{\"name\":\"discovery-agent-multus-multus\",\"creationTimestamp\":null},\"spec\":{\"config\":{\"workload\":{\"type\":\"multus\",\"version\":\"ocp-v4.0-art-dev\"}},\"arrayOptions\":{\"flavor\":[\"openshift-sdn\"],\"pod_status_namespace\":[\"openshift-multus\"]}},\"status\":{\"cniType\":\"multus\",\"cniVersion\":\"ocp-v4.0-art-dev\",\"cniStatus\":{\"openshift-multus/multus-4cjm9\":\"Running\",\"openshift-multus/multus-additional-cni-plugins-cjdf5\":\"Running\",\"openshift-multus/multus-additional-cni-plugins-fzc9g\":\"Running\",\"openshift-multus/multus-additional-cni-plugins-j5dv9\":\"Running\",\"openshift-multus/multus-additional-cni-plugins-l59nh\":\"Running\",\"openshift-multus/multus-additional-cni-plugins-zzhb9\":\"Running\",\"openshift-multus/multus-admission-controller-d764496d7-qlfb6\":\"Running\",\"openshift-multus/multus-admission-controller-d764496d7-t7v9g\":\"Running\",\"openshift-multus/multus-k4kqg\":\"Running\",\"openshift-multus/multus-vbchp\":\"Running\",\"openshift-multus/multus-wtcdw\":\"Running\",\"openshift-multus/multus-xkg97\":\"Running\",\"openshift-multus/network-metrics-daemon-79b6b\":\"Running\",\"openshift-multus/network-metrics-daemon-8cbrx\":\"Running\",\"openshift-multus/network-metrics-daemon-bxshn\":\"Running\",\"openshift-multus/network-metrics-daemon-h4nl9\":\"Running\",\"openshift-multus/network-metrics-daemon-nr7nj\":\"Running\"},\"state\":\"Running\",\"managedState\":\"Unmanaged\",\"upgradeStatus\":{\"cniUpgradeState\":\"None\"},\"observedGeneration\":1}}"
+  }
+}
